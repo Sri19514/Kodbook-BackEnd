@@ -1,6 +1,7 @@
+/* General page styling */
 body {
     font-family: 'Poppins', sans-serif;  /* Funky but classy font */
-    background-color: #1b1b32;          /* Light, calming background */
+    background-color: #9DBDFF;           /* Light, calming background */
     color: #2A2A2A;                      /* Text color */
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@ body {
     align-items: center;
     height: 100vh;
 }
+
 h1 {
     color: #7695FF;
     font-size: 3em;
@@ -17,7 +19,7 @@ h1 {
 }
 
 h3 {
-    color: #fa7ad7;
+    color: #FF9874;
     font-size: 1.5em;
     text-align: center;
 }
@@ -73,7 +75,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #0000ff;
+    background-color: #FF9874;
     opacity: 0.8;
 }
 

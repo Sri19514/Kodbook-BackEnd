@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Edit Profile</title>
-</head>
-<body>
-<h2>Update your Profile</h2>
-      <form action="/updateProfile" method="post" enctype="multipart/form-data">
+	<head>
+		<meta charset="UTF-8">
+		<title>KodBook Sign up</title>
+		<link rel="stylesheet" type="text/css" th:href="@{/styles.css}">
+	</head>
+	<body>
+		<h1>KodBook</h1>
+		<h3>Update your profile!</h3>
+		<hr>
+		<form action="/updateProfile" method="post" enctype="multipart/form-data">		
 			<label>DOB : </label>
 			<input type = "date" name = "dob">
-			<br><br>
+			<br><br>	
 			<label>GENDER : </label>
 			<label>M</label><input type = "radio" name = "gender" value = "M">
 			<label>F</label><input type = "radio" name = "gender" value = "F">
@@ -28,14 +31,13 @@
 			<input type = "text" name = "linkedIn">
 			<br><br>
 			<label>GIT HUB : </label>
-			<input type = "text" name = "github">
+			<input type = "text" name = "gitHub">
 			<br><br>
 			<input type="file" name="profilePic" accept="image/*" />
-        <br><br>
+			<br>
 			<input type="submit" value = "Update Profile">
-			<hr>
+			
 			
 		</form>
-
-</body>
+	</body>
 </html>
